@@ -1,56 +1,72 @@
-# Cybersecurity Beginner Labs
+# Cybersecurity Beginner Labs 🔐
 
 Welcome to my cybersecurity learning repository!
 
 I'm a B.Tech Information Technology student building practical knowledge and skills in Cybersecurity, Network Security and Information Security.
 
-This repository documents my cybersecurity learning journey through hands-on labs, practical exercises, tools and technical projects.
+This repository documents my learning journey through hands-on labs, practical exercises, cybersecurity tools and technical projects.
 
-## About Me
+## 👩‍💻 About Me
 
-- **Field:** Cybersecurity
 - **Education:** B.Tech in Information Technology
-- **Certification:** Cisco Networking Academy – Introduction to Cybersecurity
-- **Career Interest:** Cybersecurity Analyst / SOC Analyst
+- **Career Interest:** SOC Analyst / Cybersecurity Analyst
+- **Currently Learning:** Cybersecurity, Network Security and Defensive Security
+- **Learning Platforms:** TryHackMe, Cisco Networking Academy
 
-## Technical Areas I'm Learning
+## 🛠️ Technical Areas I'm Learning
 
 - Cybersecurity Fundamentals
 - Computer Networking
 - Network Security
 - Network Traffic Analysis
+- Offensive and Defensive Security
 - Linux Fundamentals
-- Python for Cybersecurity
 - Threat Detection and Analysis
+- Security Operations Centre (SOC)
 
-## Tools and Platforms
+## 🔧 Tools and Platforms
 
-| Tool | Purpose |
+| Tool / Platform | Purpose |
 |---|---|
 | Wireshark | Network Traffic Analysis |
-| TryHackMe | Hands-on Cybersecurity Labs |
+| TryHackMe | Hands-on Cybersecurity Training |
 | GitHub | Project Documentation |
-| Cisco Networking Academy | Cybersecurity Learning |
+| Cisco Networking Academy | Cybersecurity Fundamentals |
 
-## Practical Labs
+## 🧪 Practical Labs and Learning
 
-| Lab | Description | Status |
-|---|---|---|
-| Wireshark Lab 01 | Network Traffic Analysis | Completed |
-| TryHackMe Beginner Labs | Practical Security Exercises | Planned |
+### Wireshark
+- [Wireshark Lab 01 – Network Traffic Analysis](Wireshark/Lab-01-Network-Traffic-Analysis)
 
-## Certifications
+### TryHackMe
 
-- Cisco Networking Academy – Introduction to Cybersecurity
+Completed beginner learning experiences:
 
-## Learning Goals
+1. [Inside a Computer – Module 1](TryHackMe/01-Inside-a-Computer.md)
+2. [Intro to Offensive Security](TryHackMe/02-Intro-to-Offensive-Security.md)
+3. [Intro to Defensive Security](TryHackMe/03-Intro-to-Defensive-Security.md)
+4. [Careers in Cyber – The Open Door](TryHackMe/04-Careers-in-Cyber.md)
 
-- Develop practical cybersecurity skills.
-- Understand network protocols and traffic analysis.
-- Gain hands-on experience with security tools.
-- Complete beginner-friendly cybersecurity labs.
-- Build and document independent cybersecurity projects.
+## 📚 Certifications and Courses
+
+- Cisco Networking Academy – Introduction to Cybersecurity (In Progress)
+
+## 🎯 Learning Goals
+
+- Strengthen networking fundamentals.
+- Develop practical SOC Analyst skills.
+- Gain experience with network traffic analysis.
+- Learn Linux and security tools.
+- Complete hands-on cybersecurity challenges.
+- Build independent cybersecurity projects.
+
+## 📈 Current Focus
+
+- TryHackMe – Networking Fundamentals
+- Wireshark Practical Labs
+- Cybersecurity Theory and Concepts
+- Defensive Security and SOC Operations
 
 ---
 
-*This repository is continuously updated as I learn and complete new practical exercises.*ss.
+*This repository is continuously updated as I learn, practise and complete new cybersecurity exercises.*
