@@ -36,7 +36,7 @@ This repository documents my cybersecurity learning journey through hands-on lab
 
 | Lab | Description | Status |
 |---|---|---|
-| Wireshark Lab 01 | Network Traffic Analysis | Planned |
+| Wireshark Lab 01 | Network Traffic Analysis | Completed |
 | TryHackMe Beginner Labs | Practical Security Exercises | Planned |
 
 ## Certifications
