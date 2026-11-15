@@ -41,3 +41,10 @@ I learned how to:
 - Connect network activity with running Windows processes.
 
 This practical helped me understand a basic technique used in network monitoring and security investigations.
+## Screenshots
+
+### 1. Network Connections using netstat
+![Netstat Output](Screenshots/05-netstat-connections.png)
+
+### 2. MySQL Process Identification
+![MySQL Process](Screenshots/06-mysql-process-identification.png)
