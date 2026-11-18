@@ -17,7 +17,7 @@ This practical covers:
 - **Operating System:** Windows
 - **Tool:** NSLOOKUP
 - **Executable Path:** `C:\Windows\System32\nslookup.exe`
-- **DNS Resolver:** `10.225.171.91`
+- **Default DNS Resolver:** `10.225.171.91`
 - **Public DNS Resolver:** Google DNS (`8.8.8.8`)
 
 ## 3. Practical Exercises
@@ -45,6 +45,12 @@ A domain can have multiple IP addresses. DNS allows clients to resolve domain na
 
 A non-authoritative response means the answer came from a DNS resolver rather than directly from the domain's authoritative nameserver.
 
+**Output Screenshot:**
+
+![DNS1 - Basic DNS Lookup](screenshots/DNS1.png)
+
+---
+
 ### Exercise 2: Querying a Specific DNS Server
 
 **Command:**
@@ -67,6 +73,12 @@ The second argument specifies which DNS server should process the query.
 
 This helps compare DNS responses from different resolvers and troubleshoot DNS resolution issues.
 
+**Output Screenshot:**
+
+![DNS2 - Google Public DNS](screenshots/DNS2.png)
+
+---
+
 ### Exercise 3: Identifying Nameservers (NS Records)
 
 **Command:**
@@ -81,7 +93,6 @@ Identify the nameservers responsible for a domain.
 **Observations:**
 
 The query returned four nameservers:
-
 - `ns1.google.com`
 - `ns2.google.com`
 - `ns3.google.com`
@@ -90,6 +101,12 @@ The query returned four nameservers:
 **Learning:**
 
 NS records identify the authoritative nameservers for a domain. These servers hold the DNS information used to answer queries about that domain.
+
+**Output Screenshot:**
+
+![DNS3 - NS Record Investigation](screenshots/DNS3.png)
+
+---
 
 ### Exercise 4: Investigating Mail Exchange Records (MX)
 
@@ -102,10 +119,7 @@ C:\Windows\System32\nslookup.exe -type=MX google.com
 
 Identify the mail server responsible for receiving email for a domain.
 
-**Observation:**
-
-The query returned:
-
+**Observations:**
 - Mail exchanger: `smtp.google.com`
 - Preference: `10`
 
@@ -114,6 +128,12 @@ The query returned:
 MX records specify which mail servers receive email for a domain.
 
 The preference value determines priority when multiple mail servers are configured. A lower preference value indicates higher priority.
+
+**Output Screenshot:**
+
+![DNS4 - MX Record Investigation](screenshots/DNS4.png)
+
+---
 
 ### Exercise 5: Investigating TXT Records
 
@@ -150,6 +170,12 @@ They are commonly used for:
 - Security-related configuration.
 
 The SPF record specifies which sending sources are authorized under the domain's SPF policy. The `~all` mechanism indicates a soft-fail for sources that do not match the policy.
+
+**Output Screenshot:**
+
+![DNS5 - TXT Record Investigation](screenshots/DNS5.png)
+
+---
 
 ## 4. Additional Verification
 
@@ -191,7 +217,7 @@ DNS enumeration is an important preliminary skill in network security assessment
 
 **Environment:** Windows Command Prompt.
 
-**Next learning objective:** Reverse DNS lookup using PTR records and further DNS investigation.
+**Next Learning Objective:** Reverse DNS lookup using PTR records and further DNS investigation.
 
 ---
 
