@@ -70,3 +70,4 @@ Completed beginner learning experiences:
 ---
 
 *This repository is continuously updated as I learn, practise and complete new cybersecurity exercises.*
+| [Lab-04-HTTP-vs-HTTPS-Traffic-Analysis](https://github.com/sarahsawant/cybersecurity-beginner-labs/tree/main/Wireshark/Lab-04-HTTP-vs-HTTPS-Traffic-Analysis) | | |
